@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
 .footer-style{
     background-color: #F1F1F1;
     overflow: hidden;
@@ -19,8 +28,8 @@
 }
 .footer-texts a{
     text-decoration: none;
-    color: #FD6F61;
-    font-size: 18px;
+    color: #FD8A52;
+    font-weight: 500;
 }
 .footer-texts a:hover{
     color: #FD8A52;
@@ -37,5 +46,8 @@
 @media only screen and (max-width: 688px) {
     .order-style1{
         order: 2;
+    }
+    .footer-last{
+        flex-direction: column;
     }
 }
